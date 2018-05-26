@@ -1,16 +1,16 @@
 # canvas-dashed-arc
 
-An API to draw dashed arc in canvas of HTML5.
+an API to draw dashed arc in canvas of HTML5
 
 [![Build Status](https://travis-ci.org/oychao/canvas-dashed-arc.svg?branch=master)](https://travis-ci.org/oychao/canvas-dashed-arc)
 
-## When will you use this
+## When will you need this
 
-You won't, unless your weirdo designer co-worker ask you to.
+You won't, unless your weirdo designer co-worker ask you to draw a dashed arc.
 
 ## How it works
 
-An method named `dashedArc` is added onto `CanvasRenderingContext2D.prototype`.
+A method named `dashedArc` is added onto `CanvasRenderingContext2D.prototype`.
 
 ## How to use
 
@@ -29,15 +29,20 @@ import 'canvas-dashed-arc';
 
 const canvas = document.createElement('canvas');
 document.body.appendChild(canvas);
-canvas.setAttribute('width', 800);
-canvas.setAttribute('height', 600);
+canvas.setAttribute('width', 400);
+canvas.setAttribute('height', 300);
 
 const ctx = canvas.getContext('2d');
 
 ctx.beginPath();
-ctx.dashedArc(400, 300, 200, 0, 2 * Math.PI, 150);
+ctx.dashedArc(200, 150, 100, 0, 2 * Math.PI, 90);
 ctx.stroke();
 ```
+
+<p align="center">
+    <img src="./arc.jpg" width="200" alt="demo">
+</p>
+
 ### Syntax
 
 ```javascript
