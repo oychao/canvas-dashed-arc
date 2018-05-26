@@ -79,7 +79,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! canvas-dashed-arc */ \"./node_modules/canvas-dashed-arc/index.js\");\n\n// import '../bin/bundle';\nvar canvas = document.createElement('canvas');\ndocument.body.appendChild(canvas);\ncanvas.setAttribute('width', 800);\ncanvas.setAttribute('height', 600);\nvar ctx = canvas.getContext('2d');\nctx.beginPath();\nctx.dashedArc(400, 300, 200, 0, 2 * Math.PI, 150);\nctx.stroke();\n\n//# sourceURL=webpack:///./index.js?");
+eval("\n\n__webpack_require__(/*! canvas-dashed-arc */ \"./node_modules/canvas-dashed-arc/index.js\");\n\n// import '../bin/bundle';\nvar canvas = document.createElement('canvas');\ndocument.body.appendChild(canvas);\ncanvas.setAttribute('width', 800);\ncanvas.setAttribute('height', 600);\nvar ctx = canvas.getContext('2d');\nctx.beginPath();\nctx.dashedArc(400, 300, 200, 0, 2 * Math.PI, 150);\nctx.arc(400, 300, 100, 0, 2 * Math.PI, 150, true);\nctx.stroke();\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
