@@ -1,6 +1,3 @@
-export default function (world) {
-    console.log(`hello ${world}`);
-}
 CanvasRenderingContext2D.prototype.dashedArc = function (ox, oy, r, start, end, parts, anticlockwise) {
     const unitSegment = (end - start) / parts;
     for (let i = 0; i < parts; i++) {
