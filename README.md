@@ -38,13 +38,20 @@ ctx.stroke();
 void ctx.arc(x, y, radius, startAngle, endAngle, parts [, anticlockwise]);
 ```
 
-**x** The x coordinate of the arc's center.  
-**y** The y coordinate of the arc's center.  
-**radius** The arc's radius.  
-**startAngle** The angle at which the arc starts, measured clockwise from the positive x axis and expressed in radians.  
-**endAngle** The angle at which the arc ends, measured clockwise from the positive x axis and expressed in radians.  
-**parts** The segment number (including blank parts) the arc will be devided into.  
-**anticlockwise** *Optional* An optional Boolean which, if true, causes the arc to be drawn counter-clockwise between the two angles. By default it is drawn clockwise.  
+#### x
+The x coordinate of the arc's center.  
+#### y
+The y coordinate of the arc's center.  
+#### radius
+The arc's radius.  
+#### startAngle
+The angle at which the arc starts, measured clockwise from the positive x axis and expressed in radians.  
+#### endAngle
+The angle at which the arc ends, measured clockwise from the positive x axis and expressed in radians.  
+#### parts
+The segment number (including blank parts) the arc will be devided into.  
+#### anticlockwise *Optional*
+An optional Boolean which, if true, causes the arc to be drawn counter-clockwise between the two angles. By default it is drawn clockwise.  
 
 ## License
 
