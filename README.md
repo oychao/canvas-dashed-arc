@@ -4,7 +4,7 @@ An API to draw dashed arc in canvas of HTML5.
 
 [![Build Status](https://travis-ci.org/oychao/canvas-dashed-arc.svg?branch=master)](https://travis-ci.org/oychao/canvas-dashed-arc)
 
-## When will you use canvas-dashed-arc
+## When will you use this
 
 You won't, unless your weirdo designer co-worker ask you to.
 
@@ -14,7 +14,13 @@ An method named `dashedArc` is added onto `CanvasRenderingContext2D.prototype`.
 
 ## How to use
 
-### Demo
+### Browser
+
+```html
+<script src="./path/to/canvas-dashed-arc.bundle.js"></script>
+```
+
+### Webpack
 
 Check the [demo][1].
 
@@ -50,7 +56,7 @@ The angle at which the arc starts, measured clockwise from the positive x axis a
 The angle at which the arc ends, measured clockwise from the positive x axis and expressed in radians.  
 #### parts
 The segment number (including blank parts) the arc will be devided into.  
-#### anticlockwise *Optional*
+#### anticlockwise [Optional]
 An optional Boolean which, if true, causes the arc to be drawn counter-clockwise between the two angles. By default it is drawn clockwise.  
 
 ## License

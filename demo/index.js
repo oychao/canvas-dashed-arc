@@ -3,11 +3,11 @@ import 'canvas-dashed-arc';
 
 const canvas = document.createElement('canvas');
 document.body.appendChild(canvas);
-canvas.setAttribute('width', 800);
-canvas.setAttribute('height', 600);
+canvas.setAttribute('width', 400);
+canvas.setAttribute('height', 300);
 
 const ctx = canvas.getContext('2d');
 
 ctx.beginPath();
-ctx.dashedArc(400, 300, 200, 0, 2 * Math.PI, 150);
+ctx.dashedArc(200, 150, 100, 0, 2 * Math.PI, 90);
 ctx.stroke();
