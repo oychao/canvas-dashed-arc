@@ -1,3 +1,1 @@
-import sayHello from './src/main';
-
-sayHello();
+import './src/main';
