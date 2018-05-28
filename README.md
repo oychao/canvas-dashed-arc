@@ -14,13 +14,17 @@ A method named `dashedArc` is added onto `CanvasRenderingContext2D.prototype`.
 
 ## How to use
 
-### Browser
+### Installation
+
+#### Browser
 
 ```html
 <script src="./path/to/canvas-dashed-arc.bundle.js"></script>
 ```
 
-### Webpack
+#### Webpack
+
+### Demo
 
 Check the [demo][1].
 
@@ -38,6 +42,8 @@ ctx.beginPath();
 ctx.dashedArc(200, 150, 100, 0, 2 * Math.PI, 90);
 ctx.stroke();
 ```
+
+---
 
 <p align="center">
     <img src="./arc.jpg" width="200" alt="demo">

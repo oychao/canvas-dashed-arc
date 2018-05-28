@@ -1,13 +1,13 @@
 {
     "name": "canvas-dashed-arc",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "./bin/bundle.js",
     "author": "ouyang-chao <chao@ouyang.io>",
     "license": "WTFPL",
     "repository": "https://github.com/oychao/canvas-dashed-arc",
     "keywords": ["canvas", "dashed", "arc"],
     "files": ["LICENSE.md", "README.md", "bin/"],
-    "description": "npm",
+    "description": "an API to draw dashed arc in canvas of HTML5",
     "scripts": {
         "build": "rollup -c",
         "lint": "eslint .",
