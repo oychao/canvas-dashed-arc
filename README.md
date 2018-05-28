@@ -22,7 +22,11 @@ A method named `dashedArc` is added onto `CanvasRenderingContext2D.prototype`.
 <script src="./path/to/canvas-dashed-arc.bundle.js"></script>
 ```
 
-#### Webpack
+#### Npm
+
+```bash
+$ npm install canvas-dashed-arc --save
+```
 
 ### Demo
 
